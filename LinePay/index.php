@@ -4,14 +4,17 @@
         <form id="reserveForm" method="POST" action="reserve.php">
 
             <!--LINE Pay API Server-->
+            <!-- 測試用 -->
             <input type="hidden" name="apiEndpoint" value="https://sandbox-api-pay.line.me/v2/payments/">
+            <!-- 正式用 -->
+            <!-- <input type="hidden" name="apiEndpoint" value="https://api-pay.line.me/v2/payments/request"> -->
 
             商家 ID
-            <input type="text" name="channelId" value="1605743542" required>
+            <input type="text" name="channelId" value="YOUR CHANNEL ID" required>
             <br>
 
             商家密鑰
-            <input type="text" name="channelSecret" value="d2b5e727abbf16bfda60a879cc3263d9" required>
+            <input type="text" name="channelSecret" value="YOUR CHANNEL SECRET" required>
             <br>
 
             商品名稱
