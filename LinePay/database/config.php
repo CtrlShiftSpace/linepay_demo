@@ -8,9 +8,9 @@
 
 		private $arr_config;
 		private $host       = "localhost";
-		private $username   = "taiwan";
-		private $password   = "taiwan123";
-		private $dbname     = "funb";
+		private $username   = "";
+		private $password   = "";
+		private $dbname     = "";
 		private $options    = array(
                 				PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
          					);
